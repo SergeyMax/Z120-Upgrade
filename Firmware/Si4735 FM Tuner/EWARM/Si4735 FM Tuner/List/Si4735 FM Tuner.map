@@ -1,0 +1,498 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  21/Dec/2019  14:15:55
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        D:\Development\Z120 Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Exe\Si4735 FM Tuner.out
+#    Map file     =
+#        D:\Development\Z120 Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\List\Si4735 FM Tuner.map
+#    Command line =
+#        -f C:\Users\ChBRR\AppData\Local\Temp\EW4633.tmp ("D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM Tuner\Obj\main.o"
+#        "D:\Development\Z120 Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\startup_stm32f030x6.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_adc.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_adc_ex.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_cortex.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_dma.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_exti.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_flash.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_flash_ex.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_gpio.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_i2c.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_i2c_ex.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_msp.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_pwr.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_pwr_ex.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_rcc.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_rcc_ex.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_tim.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_hal_tim_ex.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_it.o" "D:\Development\Z120 Upgrade\Firmware\Si4735
+#        FM Tuner\EWARM\Si4735 FM Tuner\Obj\stm32f0xx_ll_dma.o"
+#        "D:\Development\Z120 Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_ll_exti.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_ll_gpio.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_ll_rcc.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_ll_spi.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\stm32f0xx_ll_utils.o" "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Obj\system_stm32f0xx.o" --redirect _Printf=_PrintfFull
+#        --redirect _Scanf=_ScanfFull --no_out_extension -o
+#        "D:\Development\Z120 Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM
+#        Tuner\Exe\Si4735 FM Tuner.out" --map "D:\Development\Z120
+#        Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM Tuner\List\Si4735 FM
+#        Tuner.map" --config "D:\Development\Z120 Upgrade\Firmware\Si4735 FM
+#        Tuner\EWARM/stm32f030x6_flash.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x800'7fff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'0fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xb0
+  .intvec            ro code   0x800'0000    0xb0  startup_stm32f030x6.o [1]
+                             - 0x800'00b0    0xb0
+
+"P1":                                      0x29b1
+  .text              ro code   0x800'00b0   0x900  main.o [1]
+  .text              ro code   0x800'09b0   0x278  stm32f0xx_hal_gpio.o [1]
+  .text              ro code   0x800'0c28   0x634  stm32f0xx_hal_i2c.o [1]
+  .text              ro code   0x800'125c    0x20  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'127c    0x2c  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'12a8    0xd4  stm32f0xx_hal_adc_ex.o [1]
+  .text              ro code   0x800'137c   0x628  stm32f0xx_hal_adc.o [1]
+  .text              ro code   0x800'19a4    0xae  I32DivModFast.o [3]
+  .rodata            const     0x800'1a52     0x2  main.o [1]
+  .text              ro code   0x800'1a54     0xc  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'1a60    0x24  stm32f0xx_hal_pwr.o [1]
+  .text              ro code   0x800'1a84    0x14  memset.o [3]
+  .text              ro code   0x800'1a98   0x69c  stm32f0xx_hal_rcc.o [1]
+  .text              ro code   0x800'2134   0x130  stm32f0xx_hal_rcc_ex.o [1]
+  .text              ro code   0x800'2264    0xd0  stm32f0xx_hal_i2c_ex.o [1]
+  .text              ro code   0x800'2334   0x140  stm32f0xx_ll_gpio.o [1]
+  .text              ro code   0x800'2474    0x88  stm32f0xx_ll_spi.o [1]
+  .text              ro code   0x800'24fc   0x11c  stm32f0xx_hal_cortex.o [1]
+  .text              ro code   0x800'2618   0x110  stm32f0xx_hal_msp.o [1]
+  .text              ro code   0x800'2728    0x50  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'2778     0x2  stm32f0xx_hal_adc.o [1]
+  .text              ro code   0x800'277a     0x2  stm32f0xx_hal_adc.o [1]
+  .text              ro code   0x800'277c     0x2  IntDivZer.o [3]
+  .rodata            const     0x800'277e     0x2  main.o [1]
+  .text              ro code   0x800'2780    0x4e  ABImemset.o [3]
+  .text              ro code   0x800'27ce     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'27d0    0x34  ABImemcpy.o [3]
+  .text              ro code   0x800'2804    0x80  system_stm32f0xx.o [1]
+  .text              ro code   0x800'2884    0x3c  zero_init3.o [3]
+  .text              ro code   0x800'28c0    0x30  copy_init3.o [3]
+  .text              ro code   0x800'28f0    0x2c  stm32f0xx_it.o [1]
+  .text              ro code   0x800'291c    0x18  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'2934    0x28  data_init.o [3]
+  .iar.init_table    const     0x800'295c    0x24  - Linker created -
+  .text              ro code   0x800'2980    0x1e  cmain.o [3]
+  .text              ro code   0x800'299e     0x4  low_level_init.o [2]
+  .text              ro code   0x800'29a2     0x8  exit.o [2]
+  .text              ro code   0x800'29aa     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'29ac     0xa  cexit.o [3]
+  .text              ro code   0x800'29b6     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'29b8    0x14  exit.o [4]
+  Initializer bytes  const     0x800'29cc    0x1c  <for P2-1>
+  .rodata            const     0x800'29e8    0x10  stm32f0xx_hal_rcc.o [1]
+  .rodata            const     0x800'29f8    0x10  stm32f0xx_hal_rcc.o [1]
+  .rodata            const     0x800'2a08    0x10  system_stm32f0xx.o [1]
+  .text              ro code   0x800'2a18    0x10  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a28     0xc  cstartup_M.o [3]
+  .rodata            const     0x800'2a34     0x8  main.o [1]
+  .rodata            const     0x800'2a3c     0x4  main.o [1]
+  .rodata            const     0x800'2a40     0x4  main.o [1]
+  .text              ro code   0x800'2a44     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a46     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a48     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a4a     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a4c     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a4e     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a50     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a52     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a54     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a56     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a58     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a5a     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a5c     0x2  startup_stm32f030x6.o [1]
+  .text              ro code   0x800'2a5e     0x2  startup_stm32f030x6.o [1]
+  .rodata            const     0x800'2a60     0x1  main.o [1]
+  .rodata            const     0x800'2a61     0x0  zero_init3.o [3]
+  .rodata            const     0x800'2a61     0x0  copy_init3.o [3]
+                             - 0x800'2a61  0x29b1
+
+"P2", part 1 of 3:                           0x1c
+  P2-1                        0x2000'0000    0x1c  <Init block>
+    .data            inited   0x2000'0000     0x8  main.o [1]
+    .data            inited   0x2000'0008     0x8  main.o [1]
+    .data            inited   0x2000'0010     0x4  stm32f0xx_hal.o [1]
+    .data            inited   0x2000'0014     0x4  system_stm32f0xx.o [1]
+    .data            inited   0x2000'0018     0x1  main.o [1]
+    .data            inited   0x2000'0019     0x1  main.o [1]
+    .data            inited   0x2000'001a     0x1  main.o [1]
+    .data            inited   0x2000'001b     0x1  stm32f0xx_hal.o [1]
+                            - 0x2000'001c    0x1c
+
+"P2", part 2 of 3:                           0xc0
+  .bss               zero     0x2000'001c    0x4c  main.o [1]
+  .bss               zero     0x2000'0068    0x40  main.o [1]
+  .bss               zero     0x2000'00a8    0x10  main.o [1]
+  .bss               zero     0x2000'00b8     0x4  main.o [1]
+  .bss               zero     0x2000'00bc     0x4  main.o [1]
+  .bss               zero     0x2000'00c0     0x4  main.o [1]
+  .bss               zero     0x2000'00c4     0x4  main.o [1]
+  .bss               zero     0x2000'00c8     0x4  main.o [1]
+  .bss               zero     0x2000'00cc     0x4  main.o [1]
+  .bss               zero     0x2000'00d0     0x4  main.o [1]
+  .bss               zero     0x2000'00d4     0x4  stm32f0xx_hal.o [1]
+  .bss               zero     0x2000'00d8     0x1  main.o [1]
+  .bss               zero     0x2000'00d9     0x1  main.o [1]
+  .bss               zero     0x2000'00da     0x1  main.o [1]
+                            - 0x2000'00db    0xbf
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'00e0   0x400  <Block>
+    CSTACK           uninit   0x2000'00e0   0x400  <Block tail>
+                            - 0x2000'04e0   0x400
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+   0x800'2a61   0x800'7fff  0x559f
+  0x2000'00dc  0x2000'00df     0x4
+  0x2000'04e0  0x2000'0fff   0xb20
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xbf:
+          0x2000'001c  0xbf
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x1c:
+           0x800'29cc  0x1c
+    1 destination range, total size 0x1c:
+          0x2000'0000  0x1c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+D:\Development\Z120 Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM Tuner\Obj: [1]
+    main.o                    2'304       40      206
+    startup_stm32f030x6.o       226
+    stm32f0xx_hal.o             192        5        9
+    stm32f0xx_hal_adc.o       1'580
+    stm32f0xx_hal_adc_ex.o      212
+    stm32f0xx_hal_cortex.o      284
+    stm32f0xx_hal_gpio.o        632
+    stm32f0xx_hal_i2c.o       1'588
+    stm32f0xx_hal_i2c_ex.o      208
+    stm32f0xx_hal_msp.o         272
+    stm32f0xx_hal_pwr.o          36
+    stm32f0xx_hal_rcc.o       1'692       32
+    stm32f0xx_hal_rcc_ex.o      304
+    stm32f0xx_it.o               44
+    stm32f0xx_ll_gpio.o         320
+    stm32f0xx_ll_spi.o          136
+    system_stm32f0xx.o          128       20        4
+    -------------------------------------------------
+    Total:                   10'158       97      219
+
+dl6M_tln.a: [2]
+    exit.o                        8
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                       12
+
+rt6M_tl.a: [3]
+    ABImemcpy.o                  52
+    ABImemset.o                  78
+    I32DivModFast.o             174
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 48
+    cstartup_M.o                 12
+    data_init.o                  40
+    memset.o                     20
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      526
+
+shb_l.a: [4]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Linker created                        36    1'024
+-----------------------------------------------------
+    Grand Total:             10'716      133    1'243
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'295c          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'2980          --   Gb  - Linker created -
+?main                    0x800'2981         Code  Gb  cmain.o [3]
+ADC1_IRQHandler          0x800'290d    0xa  Code  Gb  stm32f0xx_it.o [1]
+ADC_Enable               0x800'18e1   0xa8  Code  Lc  stm32f0xx_hal_adc.o [1]
+AHBPrescTable            0x800'2a08   0x10  Data  Gb  system_stm32f0xx.o [1]
+CSTACK$$Base            0x2000'00e0          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'04e0          --   Gb  - Linker created -
+EXTI0_1_IRQHandler       0x800'2903    0xa  Code  Gb  stm32f0xx_it.o [1]
+Error_Handler            0x800'09ad    0x4  Code  Gb  main.o [1]
+HAL_ADCEx_Calibration_Start
+                         0x800'12a9   0xd4  Code  Gb  stm32f0xx_hal_adc_ex.o [1]
+HAL_ADC_AnalogWDGConfig
+                         0x800'1813   0xc8  Code  Gb  stm32f0xx_hal_adc.o [1]
+HAL_ADC_ConfigChannel    0x800'16bb  0x158  Code  Gb  stm32f0xx_hal_adc.o [1]
+HAL_ADC_IRQHandler       0x800'15b9  0x102  Code  Gb  stm32f0xx_hal_adc.o [1]
+HAL_ADC_Init             0x800'137d  0x1be  Code  Gb  stm32f0xx_hal_adc.o [1]
+HAL_ADC_LevelOutOfWindowCallback
+                         0x800'02cb    0xc  Code  Gb  main.o [1]
+HAL_ADC_MspInit          0x800'2645   0x6a  Code  Gb  stm32f0xx_hal_msp.o [1]
+HAL_ADC_Start            0x800'153b   0x6c  Code  Gb  stm32f0xx_hal_adc.o [1]
+HAL_Delay                0x800'127d   0x2c  Code  Wk  stm32f0xx_hal.o [1]
+HAL_GPIO_EXTI_Callback   0x800'02d7   0x12  Code  Gb  main.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                         0x800'0bdb   0x22  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GPIO_Init            0x800'09b1  0x1f6  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin         0x800'0ba7   0x1a  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x800'0bc1   0x1a  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GetTick              0x800'1a55    0xc  Code  Wk  stm32f0xx_hal.o [1]
+HAL_I2CEx_ConfigAnalogFilter
+                         0x800'2265   0x66  Code  Gb  stm32f0xx_hal_i2c_ex.o [1]
+HAL_I2CEx_ConfigDigitalFilter
+                         0x800'22cb   0x60  Code  Gb  stm32f0xx_hal_i2c_ex.o [1]
+HAL_I2C_GetError         0x800'0fdd    0x4  Code  Gb  stm32f0xx_hal_i2c.o [1]
+HAL_I2C_Init             0x800'0c29   0xc6  Code  Gb  stm32f0xx_hal_i2c.o [1]
+HAL_I2C_Master_Receive   0x800'0e65  0x166  Code  Gb  stm32f0xx_hal_i2c.o [1]
+HAL_I2C_Master_Transmit
+                         0x800'0cef  0x166  Code  Gb  stm32f0xx_hal_i2c.o [1]
+HAL_I2C_MspInit          0x800'26af   0x64  Code  Gb  stm32f0xx_hal_msp.o [1]
+HAL_IncTick              0x800'291d   0x18  Code  Wk  stm32f0xx_hal.o [1]
+HAL_Init                 0x800'125d   0x1a  Code  Gb  stm32f0xx_hal.o [1]
+HAL_InitTick             0x800'2729   0x50  Code  Wk  stm32f0xx_hal.o [1]
+HAL_MspInit              0x800'2619   0x2c  Code  Gb  stm32f0xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ       0x800'25e7    0xe  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority     0x800'25d3   0x14  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_PWR_EnterSLEEPMode   0x800'1a61   0x20  Code  Gb  stm32f0xx_hal_pwr.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                         0x800'2135  0x110  Code  Gb  stm32f0xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig      0x800'1f59  0x128  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                         0x800'2095   0x72  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x800'1a99  0x4ac  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_SYSTICK_Config       0x800'25f5    0xc  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HardFault_Handler        0x800'28f3    0x4  Code  Gb  stm32f0xx_it.o [1]
+I2C_Flush_TXDR           0x800'0fe1   0x28  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_IsAcknowledgeFailed
+                         0x800'119d   0x8a  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_TransferConfig       0x800'1227   0x2e  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_WaitOnFlagUntilTimeout
+                         0x800'1009   0x58  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_WaitOnRXNEFlagUntilTimeout
+                         0x800'110b   0x92  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_WaitOnSTOPFlagUntilTimeout
+                         0x800'10b9   0x52  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_WaitOnTXISFlagUntilTimeout
+                         0x800'1061   0x58  Code  Lc  stm32f0xx_hal_i2c.o [1]
+LL_AHB1_GRP1_EnableClock
+                         0x800'01ad   0x16  Code  Lc  main.o [1]
+LL_APB1_GRP2_EnableClock
+                         0x800'01c3   0x16  Code  Lc  main.o [1]
+LL_GPIO_Init             0x800'23ef   0x86  Code  Gb  stm32f0xx_ll_gpio.o [1]
+LL_GPIO_SetAFPin_0_7     0x800'239b   0x24  Code  Lc  stm32f0xx_ll_gpio.o [1]
+LL_GPIO_SetAFPin_8_15    0x800'23bf   0x30  Code  Lc  stm32f0xx_ll_gpio.o [1]
+LL_GPIO_SetPinMode       0x800'2335   0x1c  Code  Lc  stm32f0xx_ll_gpio.o [1]
+LL_GPIO_SetPinOutputType
+                         0x800'2351   0x12  Code  Lc  stm32f0xx_ll_gpio.o [1]
+LL_GPIO_SetPinPull       0x800'237f   0x1c  Code  Lc  stm32f0xx_ll_gpio.o [1]
+LL_GPIO_SetPinSpeed      0x800'2363   0x1c  Code  Lc  stm32f0xx_ll_gpio.o [1]
+LL_SPI_DisableNSSPulseMgt
+                         0x800'018f    0xa  Code  Lc  main.o [1]
+LL_SPI_Enable            0x800'0155    0xa  Code  Lc  main.o [1]
+LL_SPI_EnableIT_RXNE     0x800'0199    0xa  Code  Lc  main.o [1]
+LL_SPI_Init              0x800'2489   0x68  Code  Gb  stm32f0xx_ll_spi.o [1]
+LL_SPI_IsEnabled         0x800'2475    0xc  Code  Lc  stm32f0xx_ll_spi.o [1]
+LL_SPI_ReceiveData8      0x800'01a3    0x6  Code  Lc  main.o [1]
+LL_SPI_SetCRCPolynomial
+                         0x800'2481    0x8  Code  Lc  stm32f0xx_ll_spi.o [1]
+LL_SPI_SetClockPhase     0x800'016b    0xc  Code  Lc  main.o [1]
+LL_SPI_SetClockPolarity
+                         0x800'0177    0xc  Code  Lc  main.o [1]
+LL_SPI_SetRxFIFOThreshold
+                         0x800'0183    0xc  Code  Lc  main.o [1]
+LL_SPI_SetStandard       0x800'015f    0xc  Code  Lc  main.o [1]
+LL_SPI_TransmitData8     0x800'01a9    0x4  Code  Lc  main.o [1]
+MX_ADC_Init              0x800'06d3   0xa2  Code  Lc  main.o [1]
+MX_GPIO_Init             0x800'08b5   0xcc  Code  Lc  main.o [1]
+MX_I2C1_Init             0x800'077d   0x4e  Code  Lc  main.o [1]
+MX_SPI1_Init             0x800'07e5   0xc8  Code  Lc  main.o [1]
+NMI_Handler              0x800'28f1    0x2  Code  Gb  stm32f0xx_it.o [1]
+PendSV_Handler           0x800'28f9    0x2  Code  Gb  stm32f0xx_it.o [1]
+Region$$Table$$Base      0x800'295c          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'2980          --   Gb  - Linker created -
+SPI1_IRQHandler          0x800'02e9   0x40  Code  Gb  main.o [1]
+SVC_Handler              0x800'28f7    0x2  Code  Gb  stm32f0xx_it.o [1]
+SysTick_Config           0x800'25a1   0x32  Code  Lc  stm32f0xx_hal_cortex.o [1]
+SysTick_Handler          0x800'28fb    0x8  Code  Gb  stm32f0xx_it.o [1]
+SystemClock_Config       0x800'065d   0x76  Code  Gb  main.o [1]
+SystemCoreClock         0x2000'0014    0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemInit               0x800'2805   0x52  Code  Gb  system_stm32f0xx.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'0fff         Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000         Data  Gb  <internal module>
+__NVIC_EnableIRQ         0x800'00b1   0x18  Code  Lc  main.o [1]
+__NVIC_EnableIRQ         0x800'24fd   0x18  Code  Lc  stm32f0xx_hal_cortex.o [1]
+__NVIC_SetPriority       0x800'00c9   0x8c  Code  Lc  main.o [1]
+__NVIC_SetPriority       0x800'2515   0x8c  Code  Lc  stm32f0xx_hal_cortex.o [1]
+__aeabi_idiv0            0x800'277d         Code  Gb  IntDivZer.o [3]
+__aeabi_memcpy4          0x800'27d1         Code  Gb  ABImemcpy.o [3]
+__aeabi_memcpy8          0x800'27d1         Code  Gb  ABImemcpy.o [3]
+__aeabi_memset           0x800'2781         Code  Gb  ABImemset.o [3]
+__aeabi_uidiv            0x800'19a5         Code  Gb  I32DivModFast.o [3]
+__aeabi_uidivmod         0x800'19a5         Code  Gb  I32DivModFast.o [3]
+__cmain                  0x800'2981         Code  Gb  cmain.o [3]
+__exit                   0x800'29b9   0x14  Code  Gb  exit.o [4]
+__iar_Memset4_word       0x800'27a1         Code  Gb  ABImemset.o [3]
+__iar_Memset_word        0x800'278d         Code  Gb  ABImemset.o [3]
+__iar_copy_init3         0x800'28c1   0x30  Code  Gb  copy_init3.o [3]
+__iar_data_init3         0x800'2935   0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'2a29         Code  Gb  cstartup_M.o [3]
+__iar_zero_init3         0x800'2885   0x3c  Code  Gb  zero_init3.o [3]
+__low_level_init         0x800'299f    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f030x6.o [1]
+_call_main               0x800'298d         Code  Gb  cmain.o [3]
+_exit                    0x800'29ad         Code  Gb  cexit.o [3]
+_main                    0x800'299b         Code  Gb  cmain.o [3]
+carrier_detected         0x800'01f7   0x20  Code  Gb  main.o [1]
+ccb                     0x2000'00c4    0x4  Data  Gb  main.o [1]
+ccb_bytes_received      0x2000'00c8    0x4  Data  Gb  main.o [1]
+ccb_bytes_snapshot      0x2000'00d0    0x4  Data  Gb  main.o [1]
+ccb_if_counter           0x800'2a40    0x4  Data  Gb  main.o [1]
+ccb_snapshot            0x2000'00cc    0x4  Data  Gb  main.o [1]
+exit                     0x800'29a3    0x8  Code  Gb  exit.o [2]
+hadc                    0x2000'0068   0x40  Data  Gb  main.o [1]
+hi2c1                   0x2000'001c   0x4c  Data  Gb  main.o [1]
+main                     0x800'0355  0x2ca  Code  Gb  main.o [1]
+memset                   0x800'1a85   0x14  Code  Gb  memset.o [3]
+radio_cts               0x2000'00d8    0x1  Data  Gb  main.o [1]
+radio_fm_blend_snr_mono_threshold
+                        0x2000'0008    0x8  Data  Gb  main.o [1]
+radio_fm_deemphasis      0x800'2a34    0x8  Data  Gb  main.o [1]
+radio_fm_rsq_status      0x800'1a52    0x2  Data  Gb  main.o [1]
+radio_fm_tune_freq      0x2000'0000    0x8  Data  Gb  main.o [1]
+radio_fm_tune_status     0x800'277e    0x2  Data  Gb  main.o [1]
+radio_get_int_status     0x800'2a60    0x1  Data  Gb  main.o [1]
+radio_power_up           0x800'2a3c    0x4  Data  Gb  main.o [1]
+radio_request            0x800'0237   0x94  Code  Gb  main.o [1]
+radio_reset              0x800'01d9   0x1e  Code  Gb  main.o [1]
+radio_response          0x2000'00a8   0x10  Data  Gb  main.o [1]
+radio_tuned             0x2000'0018    0x1  Data  Gb  main.o [1]
+status                  0x2000'00da    0x1  Data  Gb  main.o [1]
+stereo_detection_delay_counter
+                        0x2000'00c0    0x4  Data  Gb  main.o [1]
+stereo_detection_enabled
+                        0x2000'00d9    0x1  Data  Gb  main.o [1]
+stereo_indicator         0x800'0217   0x20  Code  Gb  main.o [1]
+tuner_frequency_new     0x2000'00b8    0x4  Data  Gb  main.o [1]
+tuner_frequency_prev    0x2000'00bc    0x4  Data  Gb  main.o [1]
+tuner_mode_new          0x2000'0019    0x1  Data  Gb  main.o [1]
+tuner_mode_prev         0x2000'001a    0x1  Data  Gb  main.o [1]
+uwTick                  0x2000'00d4    0x4  Data  Gb  stm32f0xx_hal.o [1]
+uwTickFreq              0x2000'001b    0x1  Data  Gb  stm32f0xx_hal.o [1]
+uwTickPrio              0x2000'0010    0x4  Data  Gb  stm32f0xx_hal.o [1]
+
+
+[1] = D:\Development\Z120 Upgrade\Firmware\Si4735 FM Tuner\EWARM\Si4735 FM Tuner\Obj
+[2] = dl6M_tln.a
+[3] = rt6M_tl.a
+[4] = shb_l.a
+
+  10'716 bytes of readonly  code memory
+     133 bytes of readonly  data memory
+   1'243 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
